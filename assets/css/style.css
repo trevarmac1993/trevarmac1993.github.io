@@ -50,7 +50,7 @@
   }
 
   .layout-foreground {
-    position: relative;
+    position: absolute;
     z-index: 100;
     color:#fff;
   }
