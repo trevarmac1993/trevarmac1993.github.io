@@ -25,7 +25,7 @@
   }
 
   .home-cover-image, .home-cover {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -50,7 +50,7 @@
   }
 
   .layout-foreground {
-    position: absolute;
+    position: relative;
     z-index: 100;
     color:#fff;
   }
