@@ -31,6 +31,20 @@ current: home
                 </div>
             </div>
         </header>
+		
+		    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@theTREVAR" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="twitter:description" content="{{ page.lead }}" />
+    {% endif %}
+    {% if page.postimg != nil %}
+      <meta name="twitter:image:src" content="http://trevarmac1993.github.io{{ page.postimg }}" />
+    {% endif %}
+	
 
         <div class="social-icons">
             {% include social_icons %}
