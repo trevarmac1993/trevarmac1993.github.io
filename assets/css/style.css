@@ -85,7 +85,7 @@
     font-weight:300;
     font-size: 50px;
     line-height: 1;
-    color: #333332;
+    color: #fff;
     margin-bottom: 8px;
     outline: 0;
     word-break: break-word;
@@ -100,7 +100,7 @@
     font-style: normal;
     font-size: 18px;
     margin: 0 0 10px 0;
-    color: #fff;
+    color: #FFFAD5;
     outline: 0;
     word-break: break-word;
     padding-top:20px;
@@ -111,11 +111,13 @@
     font-weight:300;
     font-style: normal;
     padding-top:40px;
+	color: #FFFAD5;
   }
 
   .read-blog-button a {
     font-weight: 300;
     font-size: 25px;
+	color: #FFFAD5;
   }
 
 
