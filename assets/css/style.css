@@ -1208,7 +1208,11 @@ ol.linenums li {
   .navbar li #follow-menu-div .social-linkedin a:visited{
     background: url(/assets/images/icon-social.png) no-repeat -10px -80px;
   }
-
+  
+  .navbar li #follow-menu-div .social-resume a:link,
+  .navbar li #follow-menu-div .social-resume a:visited{
+    background: url(/assets/images/resume.png) no-repeat -10px -4px;
+  }
 
 
   /* Ads
